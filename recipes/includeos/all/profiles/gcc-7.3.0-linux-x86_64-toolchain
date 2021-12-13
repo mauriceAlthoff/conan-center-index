@@ -1,0 +1,17 @@
+[build_requires]
+[settings]
+os=Linux
+os_build=Linux
+arch=x86_64
+arch_build=x86_64
+compiler=gcc
+compiler.version=7
+compiler.libcxx=libstdc++11
+cppstd=17
+build_type=Release
+[options]
+[env]
+CC=/usr/bin/gcc-7
+CXX=/usr/bin/g++-7
+CFLAGS=-msse3 -mfpmath=sse -O2 -g
+CXXFLAGS=-msse3 -mfpmath=sse -O2 -g

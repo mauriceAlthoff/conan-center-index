@@ -1,0 +1,6 @@
+sources:
+  0.15.0:
+    url: [
+      "https://github.com/includeos/IncludeOS/archive/refs/tags/v0.15.0.tar.gz"
+    ]
+    sha256: "https://github.com/includeos/IncludeOS/archive/refs/tags/v0.15.0.tar.gz"

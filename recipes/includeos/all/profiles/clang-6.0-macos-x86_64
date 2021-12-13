@@ -1,0 +1,19 @@
+[build_requires]
+binutils/2.31@includeos/toolchain
+[settings]
+os=Linux
+os_build=Macos
+arch=x86_64
+arch_build=x86_64
+compiler=clang
+compiler.version=6.0
+compiler.libcxx=libc++
+cppstd=17
+build_type=Release
+[options]
+[env]
+# Brew install llvm@6
+CC=/usr/local/opt/llvm\@6/bin/clang
+CXX=/usr/local/opt/llvm\@6/bin/clang++
+CFLAGS=-msse3 -mfpmath=sse -O2 -g
+CXXFLAGS=-msse3 -mfpmath=sse -O2 -g
